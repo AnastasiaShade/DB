@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Вход</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div>
+			<form id="form" onsubmit="check_user()" method="post">
+				<p id="autorization_message"></p>
+				<div class="field-wrap">
+					<label>Логин<span>*</span></label>
+					<input id="login" type="text"/><span id="login_message"></span>
+				</div>
+				<div class="field-wrap">
+					<label>Пароль<span>*</span></label>
+					<input id="password" type="password"/><span id="password_message"></span>
+				</div>
+				<p><a href="#">Забыли пароль?</a></p>
+				<p><a href="registration.html">Регистрация</a></p>
+				<button>Войти</button>
+			</form>
+		</div>
+		<script  src="js/login.js"></script>
+	</body>
+</html>
